@@ -1,0 +1,28 @@
+{
+  "name": "coolstore",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~48.0.18",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.8",
+    "expo-font": "~11.1.1",
+    "expo-screen-orientation": "~5.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "eslint": "^8.44.0",
+    "eslint-config-universe": "^11.2.0",
+    "prettier": "^2.8.8"
+  },
+  "eslintConfig": {
+    "extends": "universe/native"
+  },
+  "private": true
+}
